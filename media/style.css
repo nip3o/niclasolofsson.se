@@ -4,9 +4,6 @@ body {
     font-family: 'Open Sans', 'sans-serif';
     font-size: 1.8em;
     padding-top: 7em;
-    background-image: url('owl.svg');
-    background-repeat: no-repeat;
-    background-position: right top;
     color: #000;
 }
 
@@ -19,4 +16,13 @@ h1 {
     font-weight: 800;
     text-transform: uppercase;
     margin-bottom: 0.5em;
+}
+
+
+@media (min-width: 992px) {
+    body {
+        background-image: url('owl.svg');
+        background-repeat: no-repeat;
+        background-position: right top;
+    }
 }
